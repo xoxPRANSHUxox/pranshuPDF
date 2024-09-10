@@ -27,7 +27,7 @@ jobs:
       - name: Deploy to Production
         uses: appleboy/scp-action@v0.1.0 # Example action
         with:
-          host: ${{ secrets.pranshubabu1450651@gmail.com}}
-          username: ${{ secrets.}}
-          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          host: ${{ secrets.pranshu-pdf.vercel.app}}
+          username: ${{ secrets.root}}
+          key: ${{ secrets.NqjdD1UScDcsrATp6Q0FTkwEnaJB2p+9PqOHDFVDRfU }}
           target: /path/to/deploy
